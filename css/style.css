@@ -1,0 +1,257 @@
+body {
+    background-color: #10141b;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.no-horizontal-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Nav */
+
+.navbar {
+    background-color: #242633;
+    position: sticky;
+    top: 0;
+}
+
+.fav-icon {
+    color: #ecbf77;
+}
+
+.nav-item {
+    padding: 0 .5rem;
+}
+
+.nav-link {
+    color: azure;
+}
+
+.contacto {
+    color: #ecbf77;
+}
+
+.contacto:hover {
+    color: #fcb542;
+}
+
+/* Presentación */
+
+.presentacion {
+    height: 92.5vh;
+}
+
+.titulo-presentacion {
+    font-size: 3rem;
+}
+
+span {
+    color: #ecbf77;
+}
+
+.info-presentacion {
+    font-size: 1.2rem;
+}
+
+.links-container {
+    border: 1px solid #242633;
+    border-radius: 1rem;
+}
+
+.link-imp {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.perfil-image {
+    border: 2px solid white;
+    border-radius: 100rem;
+    width: 70%;
+}
+
+/* Sobre mi y Hobbies */
+
+#sobre-mi,
+#hobbies {
+    background-color: #1b1828;
+}
+
+.info-sobre-mi {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.titulo {
+    color: #ecbf77;
+}
+
+.hobbies-title {
+    color: #0d6efd;
+    padding-top: 1rem;
+}
+
+/* Skills y Formación */
+
+#skills,
+#formacion {
+    background-color: #242633;
+}
+
+.skills-title {
+    padding: 1rem 0;
+}
+
+.formacion-items {
+    background-color: azure;
+    color: #10141b;
+    border-radius: 1rem;
+}
+
+.formacion-img {
+    height: 225px;
+    width: 225px;
+    object-fit: scale-down;
+}
+
+.formacion-titles {
+    font-weight: bold;
+}
+
+/* Proyectos */
+
+#proyectos {
+    background-color: #1b1828;
+}
+
+.img-container {
+    border: 2px solid;
+    margin-top: 2rem;
+    padding: .5rem;
+    overflow: hidden;
+}
+
+.proyectos-img {
+    height: auto;
+    width: 100%;
+}
+
+.proyectos-title {
+    font-size: 3rem;
+}
+
+.repositorio-btn,
+.demo-btn {
+    border: 2px solid;
+    border-radius: 2rem;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.demo-btn {
+    color: #ecbf77;
+}
+
+.repositorio-btn:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: azure;
+}
+
+.demo-btn:hover {
+    background-color: #fcb542;
+    border-color: #fcb542;
+    color: #1b1828;
+}
+
+/* Contacto */
+
+#contacto {
+    background-color: #242633;
+}
+
+.contacto-container {
+    align-items: center;
+}
+
+.contact-img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.contact-img img {
+    height: auto;
+    border: 2px solid #fcb542;
+}
+
+label {
+    color: #ecbf77;
+    padding: .4rem 0;
+}
+
+.contact-input {
+    border: transparent;
+    border-radius: .3rem;
+    padding-left: .5rem;
+}
+
+#message {
+    resize: none;
+}
+
+#btn-enviar {
+    margin-top: .5rem;
+    border: 2px solid;
+    border-radius: 2rem;
+    background-color: #0d6efd;
+    border-color: transparent;
+    color: azure;
+}
+
+#btn-enviar:hover {
+    background-color: #0a58ca;
+}
+
+/* Footer */
+
+.footer {
+    margin-bottom: 0;
+}
+
+/* Media */
+
+@media (max-width:1197px) {
+        
+    .contact-img {
+        display: none;
+    }
+
+    @media (max-width: 992px) {
+        .presentacion {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .order-ld-2 {
+            order: 1;
+        }
+    
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .order-ld-1 {
+            order: 2;
+        }
+    
+        .sobre-mi-hobbies {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+} 
