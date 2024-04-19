@@ -11,12 +11,16 @@ body {
     margin-left: 0 !important;
 }
 
+/* Animaciones */
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+}
+
 /* Nav */
 
 .navbar {
     background-color: #242633;
-    position: sticky;
-    top: 0;
 }
 
 .fav-icon {
