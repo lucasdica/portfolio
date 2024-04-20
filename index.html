@@ -8,8 +8,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" type="image/svg+xml" href="images/bolt-solid.svg">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c502245b49.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -53,7 +54,7 @@
     <div class="row no-horizontal-padding">
         <section id="presentacion" class="col-12">
             <div class="container">
-                <div class=" presentacion row align-items-center py-5 seccion animate__animated animate__fadeIn">
+                <div class="presentacion row align-items-center py-5 seccion" data-aos="fade-up" data-aos-duration="1000">
                     <div class="titulo-info col order-ld-1 text-start">
                         <h1 class="titulo-presentacion">Hola, <br>Mi nombre es <span>Lucas Di Catarina</span> y soy
                             <span>Desarrollador Web</span>.
@@ -78,9 +79,9 @@
         </section>
 
         <section id="sobre-mi" class="col-12">
-            <div class="sobre-mi container pt-5 mt-3 ">
+            <div class="sobre-mi container pt-5 mt-3">
                 <h2 class="titulo">Sobre Mi_</h2>
-                <p class="info-sobre-mi"><span>></span> Me llamo Lucas Agustín Di Catarina y me estoy por recibir de
+                <p class="info-sobre-mi" data-aos="fade-up" data-aos-duration="1000"><span>></span> Me llamo Lucas Agustín Di Catarina y me estoy por recibir de
                     Profesor de Educación Física... Sí, nada que ver con la programación, ¿o no?<br>A la hora de
                     planificar una clase o una actividad hay que llevar una <span>estructura</span> que va de arriba
                     hacia abajo (quizás te suene similar) y a su vez toda actividad debe tener una secuencia didáctica
@@ -103,30 +104,30 @@
         </section>
 
         <section id="hobbies" class="col-12">
-            <div class="hobbies container pt-5 mt-3">
+            <div class="hobbies container pt-5 mt-3" >
                 <h2 class="titulo">Hobbies_</h2>
                 <div class="row d-flex justify-content-between text-center py-5">
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500">
                         <i class="fa-solid fa-book fa-2xl"></i>
                         <h5 class="hobbies-title">Leer libros</h5>
                         <p>"Considero que las sagas de Harry Potter y Trono de Cristal son las mejores"</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2" data-aos="flip-up" data-aos-delay="325" data-aos-duration="1500">
                         <i class="fa-solid fa-gamepad fa-2xl"></i>
                         <h5 class="hobbies-title">Jugar videojuegos</h5>
                         <p>"Mundo abierto con buena historia y gran desarrollo de personajes, compro"</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2" data-aos="flip-up" data-aos-delay="350" data-aos-duration="1500">
                         <i class="fa-solid fa-dumbbell fa-2xl"></i>
                         <h5 class="hobbies-title">Ejercitar</h5>
                         <p>"Me gustan los deportes de equipo, pero el gimnasio se ganó mi corazón"</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2" data-aos="flip-up" data-aos-delay="375" data-aos-duration="1500">
                         <i class="fa-solid fa-music fa-2xl"></i>
                         <h5 class="hobbies-title">Escuchar música</h5>
                         <p>"Tengo gustos variados, pero Morat le gana a todos"</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2" data-aos="flip-up" data-aos-delay="400" data-aos-duration="1500">
                         <i class="fa-solid fa-tv fa-2xl"></i>
                         <h5 class="hobbies-title">Ver películas</h5>
                         <p>"Si son de Marvel o Harry Potter esta prohibido cambiar de canal"</p>
@@ -140,43 +141,43 @@
                 <div class="skills container pt-5 mt-3">
                     <h2 class="titulo">Skills_</h2>
                     <div class="row d-flex justify-content-start text-center py-5">
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-html5 fa-2xl" style="color: #f06629;"></i>
                             <h5 class="skills-title">HTML5</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2a65f0;"></i>
                             <h5 class="skills-title">CSS3</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-js fa-2xl" style="color: #f7e01d;"></i>
                             <h5 class="skills-title">JavaScript</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-bootstrap fa-2xl" style="color: #8912fc;"></i>
                             <h5 class="skills-title">Bootstrap</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-react fa-2xl" style="color: #00d8ff;"></i>
                             <h5 class="skills-title">React</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-java fa-2xl" style="color: #5283a2;"></i>
                             <h5 class="skills-title">Java</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-vuejs fa-2xl" style="color: #41b782;"></i>
                             <h5 class="skills-title">Vue.js</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-solid fa-database fa-2xl" style="color: #00618a;"></i>
                             <h5 class="skills-title">MySQL</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-git-alt fa-2xl" style="color: #df4c37;"></i>
                             <h5 class="skills-title">Git</h5>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-2" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1500">
                             <i class="fa-brands fa-github fa-2xl" style="color: #f7f7f7;"></i>
                             <h5 class="skills-title">GitHub</h5>
                         </div>
@@ -189,28 +190,28 @@
             <div class="formacion container pt-5 mt-3">
                 <h2 class="titulo">Formación_</h2>
                 <div class="row d-flex text-center justify-content-center py-3">
-                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2">
+                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
                         <img src="images/formacion/insfa.png" alt="Instituto Nuestra Señora de Fátima" class="formacion-img">
                         <h5 class="formacion-titles">Inst. Nuestra Señora de Fátima</h5>
                         <p>Bachiller en Economía y Administración <br> 2013 - 2018</p>
                     </div>
-                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2">
+                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
                         <img src="images/formacion/jose-manuel-estrada.png" alt="Colefio José Manuel Estrada"
                             class="formacion-img">
                         <h5 class="formacion-titles">Colegió José Manuel Estrada</h5>
                         <p>Profesorado de Educación Física <br> 2021 - En curso</p>
                     </div>
-                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2">
+                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
                         <img src="images/formacion/argentina-programa.png" alt="Argentina Programa 4.0" class="formacion-img">
                         <h5 class="formacion-titles">Argentina Programa 4.0</h5>
                         <p>Desarrolador de Videojuegos <br> 2023</p>
                     </div>
-                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2">
+                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
                         <img src="images/formacion/one.png" alt="Oracle Next Education" class="formacion-img">
                         <h5 class="formacion-titles">Oracle Next Education</h5>
                         <p>Especialización en Desarrollo Front-End <br> 2024 - En curso</p>
                     </div>
-                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2">
+                    <div class="col-8 col-md-5 col-lg-3 formacion-items m-2" data-aos="flip-left" data-aos-delay="300" data-aos-duration="3000">
                         <img src="images/formacion/codo-a-codo.png" alt="Codo a Codo 4.0" class="formacion-img">
                         <h5 class="formacion-titles">Codo a Codo 4.0</h5>
                         <p>Desarrolador FullStack con Java <br> 2024 - En curso</p>
@@ -223,7 +224,7 @@
             <div class="proyectos container pt-5 mt-3">
                 <h2 class="titulo">Proyectos_</h2>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">El Número Secreto</h4>
                         <div>
                             <a href="https://github.com/lucasdica/numero-secreto" target="_blank"
@@ -232,12 +233,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/numero-secreto.png" alt="El Número Secreto" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">Burger Shop</h4>
                         <div>
                             <a href="https://github.com/lucasdica/burger-shop" target="_blank"
@@ -246,12 +247,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/burger-shop.png" alt="Burger Shop" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">Google 1998</h4>
                         <div>
                             <a href="https://github.com/lucasdica/google-98" target="_blank"
@@ -260,12 +261,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/google98.png" alt="Google 1998" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">Alura Play</h4>
                         <div>
                             <a href="https://github.com/lucasdica/alura-play" target="_blank"
@@ -274,12 +275,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/alura-play.png" alt="Alura Play" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">Encriptador de Texto</h4>
                         <div>
                             <a href="https://github.com/lucasdica/encriptador" target="_blank"
@@ -288,12 +289,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/encriptador.png" alt="Encriptador de Texto" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">E-commerce</h4>
                         <div>
                             <a href="https://github.com/lucasdica/ecommerce" target="_blank"
@@ -302,12 +303,12 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/ecommerce.png" alt="E-commerce" class="proyectos-img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around align-items-center py-4">
-                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column">
+                    <div class="col-12 col-md-12 col-lg-3 d-flex flex-column" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
                         <h4 class="proyectos-title py-3">Sistema de Mensajería</h4>
                         <div>
                             <a href="https://github.com/lucasdica/sistema-de-mensajeria" target="_blank"
@@ -316,7 +317,7 @@
                                 Demo</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center img-container" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="1500">
                         <img src="images/proyectos/chat.png" alt="Sistema de Mensajería" class="proyectos-img">
                     </div>
                 </div>
@@ -324,7 +325,7 @@
         </section>
 
         <section id="contacto" class="col-12">
-            <div class="contacto container py-5">
+            <div class="contacto container py-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
                 <h2 class="titulo">Contacto_</h2>
                 <div class="row contacto-container py-2 my-5">
                     <div class="col contact-img">
@@ -359,10 +360,12 @@
         <p class="footer">Sitio desarrollado por Lucas Di Catarina <br>2024</p>
     </footer>
 
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="script.js"></script>
 </body>
 
 </html>
