@@ -48,3 +48,30 @@ function verificarCampos(campo){
         mensajeError.textContent = ""
     }
 }
+
+let form = document.querySelector("#formulario");
+let btnEnviar = document.querySelector("#btn-enviar");
+
+form.addEventListener("keyup", validarForm)
+
+function validarForm (){
+    let deshabilitar = false;
+    if(form.nombre.value == ""){
+        deshabilitar= true;
+    }
+    if(form.mail.value == ""){
+        deshabilitar= true;
+    }
+    if(form.asunto.value == ""){
+        deshabilitar= true;
+    }
+    if(form.message.value == ""){
+        deshabilitar= true;
+    }
+    if(deshabilitar == true){
+        btnEnviar.disabled = true;
+    } else {
+        btnEnviar.disabled = false;
+        btnEnviar.style.backgroundColor= "#0d6efd";
+    }
+}

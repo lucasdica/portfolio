@@ -187,6 +187,7 @@ span {
 
 label {
     color: #ecbf77;
+    display: block;
     padding: .4rem 0;
 }
 
@@ -194,23 +195,24 @@ label {
     border: transparent;
     border-radius: .3rem;
     padding-left: .5rem;
+    width: 100%;
 }
 
 #message {
     resize: none;
 }
 
+.mensaje-error {
+    color: red;
+}
+
 #btn-enviar {
     margin-top: .5rem;
     border: 2px solid;
     border-radius: 2rem;
-    background-color: #0d6efd;
+    background-color: #063a87;
     border-color: transparent;
     color: azure;
-}
-
-#btn-enviar:hover {
-    background-color: #0a58ca;
 }
 
 /* Footer */

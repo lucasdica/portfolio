@@ -361,22 +361,22 @@
                     </div>
                     <div class="col">
                         
-                        <form action="https://formsubmit.co/lucasdicatarina@gmail.com" method="POST" class="d-flex flex-column formulario">
+                        <form action="https://formsubmit.co/lucasdicatarina@gmail.com" method="POST" class="d-flex flex-column" id="formulario">
                             <div class="form-group">
                                 <label for="nombre">Nombre</label>
-                                <input type="text" name="nombre" class="contact-input" minlength="3" maxlength="50" required>
+                                <input type="text" name="nombre" id="nombre" class="contact-input" minlength="3" maxlength="50" required>
                                 <span class="mensaje-error"></span>
                             </div>
                         
                             <div class="form-group">
                                 <label for="email">E-mail</label>
-                                <input type="email" name="email" class="contact-input" required>
+                                <input type="email" name="email" id="mail" class="contact-input" required>
                                 <span class="mensaje-error"></span>
                             </div>
                         
                             <div class="form-group">
                                 <label for="asunto">Asunto</label>
-                                <input type="text" name="asunto" class="contact-input" required>
+                                <input type="text" name="asunto" id="asunto" class="contact-input" required>
                                 <span class="mensaje-error"></span>
                             </div>
                         
@@ -386,7 +386,7 @@
                                 <span class="mensaje-error"></span>
                             </div>
                         
-                            <input type="submit" value="Enviar" id="btn-enviar" class="w-25">
+                            <input type="submit" value="Enviar" id="btn-enviar" class="w-25" disabled>
                             
                             <input type="hidden" name="_next" value="https://lucasdica.github.io/portfolio/">
                             <input type="hidden" name="_captcha" value="false">
@@ -408,7 +408,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="./validacion-formulario.js"></script>
+    <script src="./js/validacion-formulario.js"></script>
 </body>
 
 </html>
